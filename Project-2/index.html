@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+   <!--- <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+    <title> fwiggy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">-->
+    <!--<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">-->
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="data:image/png;base64,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" alt="logo">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to fwiggy</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum distinctio perspiciatis aperiam cum praesentium vero vel error debitis quis dolore? Similique dolor quae omnis quos asperiores culpa, modi nesciunt perferendis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <section id="services_pro">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/1.png" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et qui, repudiandae similique nam, recusandae quidem ab asperiores ex, aut fugit labore veritatis facere?
+                    sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                    voluptas beatae facilis labore, omnis sint quae eum.</p>
+            </div>
+            <div class="box">
+                <img src="img/2.png" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laudantium a incidunt animi ad, ab dignissimos vero? Unde numquam odit repudiandae perferendis nisi.
+
+                    sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                    voluptas beatae facilis labore, omnis sint quae eum.</p>
+            </div>
+            <div class="box">
+                <img src="img/3.png" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident fugiat aliquam minima at explicabo. Earum eveniet quaerat, sunt molestias nesciunt quas! Quis.
+                    sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                    voluptas beatae facilis labore, omnis sint quae eum.</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/logo1.png" alt="Our Client1">
+            </div>
+            <div class="client-item">
+                <img src="img/logo2.png" alt="Our Client2">
+            </div>
+          
+            <div class="client-item">
+                <img src="img/logo4.png" alt="Our Client3">
+            </div>
+            <div class="client-item">
+                <img src="img/logo3.png" alt="Our Client4">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+
+                <button class="btn" id="me">
+                <div class="email">
+                    <a href="mailto:vs680587@gmail.com?subject=order%20now&body=write%20your%20order%20here" style="color: black;">Email me!</a>
+                </div>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy;  All rights reserved!
+        </div>
+    </footer>
+    <script>
+        alert("THIS IS FOOD ORDERING WEBSITE");
+        var name=prompt("Welcome please enter your name","guest");
+        if(name=="vinamra"){
+            alert("Welcome! Order please");
+        }
+        else{
+            alert("invalid");
+        }
+
+    </script>
+</body>
+
+</html>
